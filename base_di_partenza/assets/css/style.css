@@ -192,7 +192,7 @@ padding: 1vh;
     flex-wrap: wrap;
     gap: 2vh;
     padding: 5vh 0;
-    
+    border-top: 2px solid gray;
     align-items: stretch;}
 #link a { text-decoration: none;
     color: inherit;
