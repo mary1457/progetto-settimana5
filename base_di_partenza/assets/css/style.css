@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.spectral-regular {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header {
+    background-color: #FFC017;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    margin: 0 auto;
+    position: sticky;
+    top:0;
+    background-color: #FFC017;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 1;
+
+}
+
+#logo {
+    flex: 1 0 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+nav {
+    flex: 1 0 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li {
+   
+    font-size: 2.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 10%;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li button { width: 100%;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 2.2vh;
+}
+    
+
+section {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    display: flex;
+    height: 80vh;
+    padding-left: 10%;
+}
+
+#titlecontainer {
+    flex: 1 0 50%;
+    display: flex;
+  align-items: center;
+
+}
+#titlecontainer div {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+  
+    gap: 7vh;
+}
+#titlecontainer div h1 {
+    font-size: 13vh;
+    font-weight: 400;
+}
+#titlecontainer div h2 {
+    
+    font-weight: 400;
+    line-height: 5vh;}
+    #titlecontainer div button {
+        width: 15vw;
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 20px;
+    }
+#svgcontainer {
+    flex: 1 0 50%;
+    position: relative;
+   
+}
+#svgcontainer svg {position: absolute;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+main {width: 80%;
+margin: 0 auto;
+padding-top: 5vh;}
+#subtitle{display: flex;
+height: 10vh;
+}
+#subtitle p {align-content: center;}
+#cardcontainer{display: flex;
+flex-wrap: wrap;
+gap: 6vh 2vw;
+margin-top: 5vh;}
+.card {display: flex;
+flex: 1 0 30%;}
+.numerocard p {    padding: 0 10px;
+    font-weight: 900;
+    color: gray;
+    font-size: 6vh;}
+.testocard {
+flex-grow: 1;
+margin-top: 1.5vh;}
+.testoimg {display: flex;}
+.testoimg img {border-radius: 50%;
+width: 10%;
+object-fit: contain;
+align-self: flex-start;}
+.testoimg p {align-content: center;
+    padding-left: 5px;
+    font-weight: 600;
+font-size: 2.2vh;
+flex-grow: 1;}
+.testo{    align-content: center;
+    padding: 5px;
+}
+.testo p:first-child{font-weight: 900;}
+.testo p:nth-child(2) {font-weight: 400;
+    color: gray;}
+.testo p:last-child{font-weight: 400;
+    color: gray;}
+main article:first-child{margin-bottom: 20vh;}
+main article:last-child {display: flex;}
+#leftcol{display: flex;
+    flex-direction: column;
+    flex: 1 0 60%;}
+    #rightcol{flex: 1 0 40%;}
+    #left{width: 100%;
+    display: flex;
+padding: 5vh;}
+    .testoleft{flex: 1 0 60%}
+    .imgleft img {width: 100%;}
+    .imgleft{flex: 1 0 40%}
+    #right{display: flex;
+    flex-direction: column;
+width: 100%;
+padding: 5vh;}
+#bottoni {display: flex;
+flex-wrap: wrap;
+gap: 2vh;
+padding: 5vh 0;
+
+align-items: stretch;
+}
+#bottoni button {
+background-color: white;
+    height: 7vh;
+    border-radius: 5px;
+color:gray;
+border: 2px solid gray;
+font-weight: 400;
+padding: 1vh;
+}
+#link {display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+    padding: 5vh 0;
+    
+    align-items: stretch;}
+#link a { text-decoration: none;
+    color: inherit;
+    color:gray;
+    font-weight: 400;
+   }
+
+
